@@ -1,0 +1,403 @@
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
+    
+
+}
+
+
+
+.slider{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    
+    
+    
+    
+}
+
+
+
+.slider figure div{
+    float: left;
+    width: 20%;
+    
+}
+
+
+.slider figure img{
+    
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    
+    
+    
+}
+
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: animate 35s infinite;
+    
+    
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.btn{
+    border: 1PX solid #3498db;
+    background: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    
+    position: absolute;
+    right:  10px;
+    top: 5px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 0.7s;
+    overflow: hidden;
+
+
+}
+
+
+.btn:hover{
+    background-color: #3498db;
+
+
+
+}
+
+
+
+
+.logo-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    align-self: center;
+    
+
+}
+
+.logo-container img{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 1160px;
+   
+    
+}
+
+
+h2{
+    font-size: 3rem;
+    color: #3498db;
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+    text-align: center;
+   
+    
+}
+
+
+h4{
+    font-size: 2rem;
+    color: #3498db;
+    position: absolute;
+    top: 220px;
+    left: 970px;
+    text-align: center;
+   
+    
+}
+
+
+h6{
+    position: absolute;
+    bottom:-25;
+    left: 5px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.3);
+    text-transform: lowercase;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 5px;
+    left: 1170px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    
+}
+.social-icons a{
+    font-size: 2rem;
+    margin-right: 20px;
+    color: rgb(238, 228, 248);
+    
+    
+}
+
+.social-icons a:hover{
+  color:#3995D2;
+  
+
+}
+
+
+@keyframes animate
+{
+    0%{left: 0%;}
+    10%{left: 0%;}
+    12%{left: -100%;}
+    22%{left: -100%;}
+    24%{left: -200%;}
+    34%{left: -200%;}
+    36%{left: -300%;}
+    46%{left: -300%;}
+    48%{left: -400%;}
+    58%{left: -400%;}
+    60%{left: -300%;}
+    70%{left: -300%;}
+    72%{left: -200%;}
+    82%{left: -200%;}
+    84%{left: -100%;}
+    94%{left: -100%;}
+    96%{left: 0%;}
+    
+
+}
+
+
+
+
+@media (max-width:430px){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        position: relative;
+       
+        width: 100%;
+       height: 130vh;
+        overflow-y: scroll;
+        
+        
+    }
+  
+   .slider{
+   
+    height: 130vh;
+    
+}
+
+.slider figure div{
+    float: left;
+    width: 20%;
+   
+}
+
+
+.slider figure img{
+    
+    
+    width: auto ;
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.slider figure{
+    
+    width: 500%;
+    margin: 0;
+    animation: animate 35s infinite;
+    background-position: center;
+    
+}
+.slid img{
+    background-position: center;
+    background-size: auto;
+}
+.content{
+    width: 100%;
+    height: 130vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    
+    
+}
+
+
+
+
+.btn-container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.btn{
+    border: 1PX solid #3498db;
+    background: none;
+    padding: 10px 5px;
+    font-size: 10px;
+    
+    position: absolute;
+    right:  5px;
+    top: 5px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 0.7s;
+    overflow: hidden;
+
+
+}
+
+
+.btn:hover{
+    background-color: #3498db;
+
+
+
+}
+
+
+.social-icons {
+    position: absolute;
+    bottom: 5px;
+    left: 270px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    
+}
+.social-icons a{
+    font-size: 1rem;
+    margin-right: 10px;
+    color: rgb(238, 228, 248);
+    
+    
+}
+
+.social-icons a:hover{
+  color:#3995D2;
+  
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
